@@ -1,7 +1,11 @@
+# Slippers
+
 <div align="center">
-<img src="./assets/FuzzySlippers.png" alt="Fuzzy Slippers Logo" style="max-height: 300px;">
+<img src="./assets/FuzzySlippers.png" alt="Fuzzy Slippers Logo" height="300">
 </div>
 
 </br>
 
-# Slippers
+<hr>
+
+...
