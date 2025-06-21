@@ -1,0 +1,23 @@
+{
+  "name": "slippers",
+  "version": "0.0.1",
+  "description": "Keeping Barefoot Developers Feet Warm",
+  "author": "Reed Turgeon <turgeon.dev+oss-slippers@gmail.com>",
+  "workspaces": [
+    "cli"
+  ],
+  "bin": {
+    "slippers": "cli/bin/slippers.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrT3313/slippers.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrT3313/slippers/issues"
+  },
+  "homepage": "https://github.com/MrT3313/slippers#readme"
+}

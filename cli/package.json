@@ -1,0 +1,10 @@
+{
+  "name": "@slippers/cli",
+  "version": "0.0.0",
+  "description": "Command Line Interface for Slippers",
+  "author": "Reed Turgeon <turgeon.dev+oss-slippers@gmail.com>",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}

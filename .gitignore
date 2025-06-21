@@ -1,0 +1,14 @@
+# ENVIRONMENT VARIABLES #######################################################
+.env
+.env.test
+.env.local
+.env.development
+.env.staging
+.env.production
+
+# NODE ########################################################################
+node_modules
+package-lock.json
+
+# VSCODE ######################################################################
+.DS_Store
