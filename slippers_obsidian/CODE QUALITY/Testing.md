@@ -1,0 +1,1 @@
+- [Add [[Vitest]]](https://github.com/MrT3313/CREATE-ELECTRON-FOUNDATION/issues/72)
