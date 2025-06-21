@@ -4,6 +4,9 @@
   "description": "Command Line Interface for Slippers",
   "author": "Reed Turgeon <turgeon.dev+oss-slippers@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "slippers": "./bin/slippers.js"
+  },
   "scripts": {},
   "dependencies": {},
   "devDependencies": {}

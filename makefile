@@ -5,6 +5,12 @@ ri:
 	rm -rf node_modules package-lock.json
 	make i
 
+# BUILD #####################################################################
+build:
+	@echo "Building CLI..."
+	cp -R cli/src/* cli/bin/
+	@echo "Build complete."
+
 # LINTING & FORMATTING ########################################################
 lint:
 	@$(NODE_MANAGE) && npm run lint
