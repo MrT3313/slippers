@@ -11,25 +11,30 @@
             "id": "48a6399fb860e054",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "SLIPPERS CLI DIAGRAM.canvas",
-                "viewState": {
-                  "x": 23.06162190854994,
-                  "y": 10.228513692843713,
-                  "zoom": -0.37833425189058006
-                }
+                "file": "Types/YARGS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "SLIPPERS CLI DIAGRAM"
+              "icon": "lucide-file",
+              "title": "YARGS"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "10dd2b05add9f502",
+        "type": "tabs",
+        "children": [
           {
             "id": "07016ea7972ca81f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
@@ -194,8 +199,12 @@
   },
   "active": "48a6399fb860e054",
   "lastOpenFiles": [
-    "SLIPPERS CLI DIAGRAM.canvas",
+    "CLI.md",
     "Welcome to Slippers.md",
+    "_lib/tags/Project Dependency.md",
+    "CLI",
+    "_lib/tags/Testing.md",
+    "SLIPPERS CLI DIAGRAM.canvas",
     "packages/Chalk.md",
     "packages/Clack.md",
     "CODE QUALITY/Testing.md",
@@ -206,10 +215,8 @@
     "packages/Vitest.md",
     "[Project Dependency.md",
     "_lib/tags/Terminal.md",
-    "_lib/tags/Testing.md",
     "Types/YARGS.md",
     "Types",
-    "_lib/tags/Project Dependency.md",
     "PROJECT DEPENDENCIES.md",
     "_lib/templates",
     "_lib/indices",

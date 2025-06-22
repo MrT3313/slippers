@@ -1,9 +1,6 @@
 ![[FuzzySlippers.png|300]]
 
-### CLI Tooling
-
-- User Promps: [[Clack]]
-- ??: [[Chalk]]
+### [[CLI]]
 ### CODE QUALITY
 
 [[Linting & Formatting]]
