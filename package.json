@@ -7,9 +7,11 @@
     "cli"
   ],
   "bin": {
-    "slippers": "cli/bin/slippers.js"
+    "slippers": "cli/dist/index.js"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "npm run build -w @fuzzy-slippers/cli"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MrT3313/slippers.git"
@@ -19,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/MrT3313/slippers/issues"
   },
-  "homepage": "https://github.com/MrT3313/slippers#readme"
+  "homepage": "https://github.com/MrT3313/slippers#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.8.3"
+  }
 }

@@ -8,7 +8,14 @@ ri:
 # BUILD #####################################################################
 build:
 	@echo "Building CLI..."
-	cp -R cli/src/* cli/bin/
+	
+	@rm -rf cli/dist
+	
+	@npm run build
+	
+	@echo "Making cli/dist/index.js executable..."
+	@chmod +x cli/dist/index.js
+	
 	@echo "Build complete."
 
 # LINTING & FORMATTING ########################################################
