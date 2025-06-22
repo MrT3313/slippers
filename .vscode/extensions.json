@@ -2,6 +2,6 @@
   "recommendations": [
     "aaron-bond.better-comments",
     "yoavbls.pretty-ts-errors",
-    "github.vscode-pull-request-github",
+    "github.vscode-pull-request-github"
   ]
 }

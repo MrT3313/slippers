@@ -1,5 +1,5 @@
 export const showHelp = (): void => {
-  console.log(`
+	console.log(`
   slippers - Keeping Barefoot Developers Feet Warm
 
   Usage:
@@ -13,4 +13,4 @@ export const showHelp = (): void => {
     --help, -h     Show this help message
     --version, -v  Show version information
   `);
-}
+};

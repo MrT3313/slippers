@@ -19,14 +19,8 @@ build:
 	@echo "Build complete."
 
 # LINTING & FORMATTING ########################################################
-lint:
-	@$(NODE_MANAGE) && npm run lint
-format:
-	@$(NODE_MANAGE) && npm run format
-
-laf:
-	$(MAKE) lint
-	$(MAKE) format
+biome:
+	npm run biome
 
 # SYMLINK MANAGEMENT ##########################################################
 command=slippers

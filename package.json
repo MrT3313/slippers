@@ -10,7 +10,8 @@
     "slippers": "cli/dist/index.js"
   },
   "scripts": {
-    "build": "npm run build -w @fuzzy-slippers/cli"
+    "build": "npm run build -w @fuzzy-slippers/cli",
+    "biome": "biome check --write --unsafe ./"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/MrT3313/slippers#readme",
   "devDependencies": {
+    "@biomejs/biome": "^1.7.3",
     "@types/node": "^20.11.30",
     "typescript": "^5.8.3"
   }
