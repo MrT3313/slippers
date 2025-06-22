@@ -1,6 +1,6 @@
 {
   "name": "fuzzy-slippers",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Keeping Barefoot Developers Feet Warm",
   "author": "Reed Turgeon <turgeon.dev+oss-slippers@gmail.com>",
   "workspaces": [
