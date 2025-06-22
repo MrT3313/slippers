@@ -4,10 +4,15 @@
   "description": "Command Line Interface for Slippers",
   "author": "Reed Turgeon <turgeon.dev+oss-slippers@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "bin": {
-    "slippers": "./bin/slippers.js"
+    "slippers": "./dist/index.js"
   },
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {}
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "colorette": "^2.0.20"
+  }
 }
